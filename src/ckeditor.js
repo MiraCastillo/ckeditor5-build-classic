@@ -8,17 +8,17 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
-import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
-import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic";
-import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline";
-import GFMDataProcessor from "@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor";
+import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
-function Markdown(editor){
-	editor.data.processor = new GFMDataProcessor()
+function Markdown( editor ) {
+	editor.data.processor = new GFMDataProcessor();
 }
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
