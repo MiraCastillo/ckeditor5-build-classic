@@ -1,7 +1,7 @@
 {
   "name": "@ckeditor/ckeditor5-build-classic",
   "version": "15.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "description": "The basic version of ckeditor5 with markup, bold, italics, and underline.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -28,23 +28,13 @@
     "@ckeditor/ckeditor5-adapter-ckfinder": "^15.0.0",
     "@ckeditor/ckeditor5-autoformat": "^15.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^15.0.0",
-    "@ckeditor/ckeditor5-block-quote": "^15.0.0",
     "@ckeditor/ckeditor5-ckfinder": "^15.0.0",
     "@ckeditor/ckeditor5-core": "^15.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^15.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^15.0.0",
     "@ckeditor/ckeditor5-essentials": "^15.0.0",
-    "@ckeditor/ckeditor5-heading": "^15.0.0",
-    "@ckeditor/ckeditor5-image": "^15.0.0",
-    "@ckeditor/ckeditor5-indent": "^15.0.0",
-    "@ckeditor/ckeditor5-link": "^15.0.0",
-    "@ckeditor/ckeditor5-list": "^15.0.0",
-    "@ckeditor/ckeditor5-media-embed": "^15.0.0",
     "@ckeditor/ckeditor5-paragraph": "^15.0.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
-    "@ckeditor/ckeditor5-table": "^15.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
@@ -67,7 +57,7 @@
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/MiraCastillo/ckeditor5-build-classic"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -87,5 +77,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-markdown-gfm": "^15.0.0"
   }
 }
