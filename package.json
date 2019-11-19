@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@busy-human/ckeditor5-build-markdown",
   "version": "15.0.0",
   "description": "The basic version of ckeditor5 with markup, bold, italics, and underline.",
   "keywords": [
